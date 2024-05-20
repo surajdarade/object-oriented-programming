@@ -65,6 +65,34 @@ Access Specifiers: Control the visibility of the class members. Common specifier
 Member Variables: Variables defined inside a class. They can be accessed by the class methods.
 Member Functions: Functions defined inside a class. They can manipulate the member variables.
 
+---------- OBJECTS ----------
+
+Stack Objects: Objects created on the stack are automatically destroyed when they go out of scope. 
+Stack space is limited, so creating too many objects on the stack can lead to a stack overflow.
+
+void createStackObjects() {
+    MyClass obj1(1);
+    MyClass obj2(2);
+    // More objects...
+}  // obj1 and obj2 are automatically destroyed here
+
+Heap Objects: Objects created on the heap must be manually managed (using new and delete). 
+Failure to delete heap objects can lead to memory leaks.
+
+void createHeapObjects() {
+    MyClass* obj1 = new MyClass(1);
+    MyClass* obj2 = new MyClass(2);
+    // More objects...
+
+    delete obj1;  // Manual deletion required
+    delete obj2;
+}
+
+Dynamic Arrays: You can create arrays of objects if you need a large number of instances.
+
+MyClass* objArray = new MyClass[100];  // Array of 100 MyClass objects
+delete[] objArray;  // Clean up the array
+
 */
 
 #include <bits/stdc++.h>
