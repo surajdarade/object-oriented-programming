@@ -37,6 +37,8 @@ Ambiguity Resolution: If two base classes have a member with the same name, use 
 Constructor Initialization: All base class constructors must be called explicitly in the derived class constructor initializer list.
 Virtual Inheritance: Use virtual inheritance to prevent multiple "instances" of a base class when using multiple inheritance.
 Access Control: Respect the access specifiers of the base classes (public, protected, private).
+Constructor Order: The constructor of the base class is called first, followed by the constructor of the derived class.
+Destructor Order: The destructor of the derived class is called first, followed by the destructor of the base class.
 
 */
 
