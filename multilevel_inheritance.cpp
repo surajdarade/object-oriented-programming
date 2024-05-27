@@ -1,6 +1,6 @@
 /*
 
----------- SINGLE INHERITANCE ----------
+---------- MULTILEVEL INHERITANCE ----------
 
 Multilevel inheritance is a type of inheritance where a class is derived from another derived class, 
 forming a chain of inheritance. For example, if class B is derived from class A, and class C is derived from class B, 
@@ -12,7 +12,7 @@ then this forms a multilevel inheritance hierarchy.
                 |
                 C
 
----------- USES -------
+---------- USES ----------
 
 Hierarchical Modeling: Model complex hierarchies where each level adds more specific behavior.
 Incremental Development: Add functionality incrementally by extending derived classes.

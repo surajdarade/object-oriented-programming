@@ -5,7 +5,11 @@
 Single inheritance is a type of inheritance in which a derived class inherits the members (attributes and methods) 
 of a single base class. This allows the derived class to reuse the code of the base class and extend its functionality.
 
----------- USES -------
+                A
+                |
+                B
+
+---------- USES ----------
 
 Code Reusability: Inherit methods and properties from a base class to avoid duplicating code.
 Relationship Modeling: Establish an "is-a" relationship between classes (e.g., a Dog is an Animal).
