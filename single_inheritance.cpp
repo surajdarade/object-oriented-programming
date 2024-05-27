@@ -32,6 +32,8 @@ Access Control: Derived classes can access public and protected members of the b
 Construction and Destruction: Base class constructors and destructors are called automatically.
 Function Overriding: Derived classes can override base class methods to provide specific implementations.
 Inheritance Depth: Classes can inherit from a single base class at a time.
+Constructor Order: The constructor of the base class is called first, followed by the constructor of the derived class.
+Destructor Order: The destructor of the derived class is called first, followed by the destructor of the base class.
 
 */
 
