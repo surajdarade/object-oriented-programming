@@ -1,6 +1,6 @@
 /*
 
----------- HIERARCHICAL INHERITANCE ----------
+---------- OPERATOR OVERLOADING ----------
 
 Operator overloading is a feature in C++ that allows you to redefine the operators to work with user-defined types. 
 This means you can use the operators to perform operations on objects of a class just like you use them with primitive data types.
