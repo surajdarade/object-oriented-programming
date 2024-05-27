@@ -1,6 +1,6 @@
 /*
 
----------- HIERARCHICAL INHERITANCE ----------
+---------- FUNCTION OVERLOADING ----------
 
 Function overloading is a feature in C++ that allows you to define multiple functions with the same name but with different parameters. 
 This enables the functions to perform similar but slightly different tasks, enhancing code readability and usability.
